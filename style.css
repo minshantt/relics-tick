@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  background: #fbf9f9;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-container {
+  width: 100%;
+  height: 110px;
+  background: linear-gradient(
+    35deg,
+    rgba(0, 0, 0, 0.1),
+    rgba(38, 64, 179, 0.5)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  z-index: 1;
+  position: absolute;
+}
+
+.nav-container .rtlogo img {
+  width: 74px;
+  height: 70px;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.hamburger {
+  display: none;
+}
