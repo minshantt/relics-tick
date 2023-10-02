@@ -44,3 +44,23 @@ img {
 .hamburger {
   display: none;
 }
+
+.nav-bar ul {
+  display: flex;
+}
+
+.nav-bar ul li a {
+  display: block;
+  color: rgb(23, 40, 117);
+  font-size: 15px;
+  border-radius: 25px;
+  transition: 0.5s;
+  padding: 10px 25px;
+  margin: 0px 10px;
+}
+
+.nav-bar ul li a:hover {
+  color: white;
+  background: rgb(23, 40, 117, 0.8);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
