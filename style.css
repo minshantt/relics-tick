@@ -64,3 +64,132 @@ img {
   background: rgb(23, 40, 117, 0.8);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
+/* content */
+
+.content {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  background: url(image/headerbg2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content-box {
+  margin-left: 10%;
+}
+
+.content-box h2 {
+  font-weight: 400;
+  font-size: 36px;
+  color: orangered;
+}
+
+.content-box label {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.content-box span {
+  color: orangered;
+}
+
+.content-box a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px;
+  color: black;
+  letter-spacing: 3px;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 4px 4px 10px #b7b6b6, -4px -4px 10px #fff;
+}
+
+.content-box a:hover {
+  box-shadow: -4px -4px 10px #b7b6b6, 4px 4px 10px #fff;
+}
+
+/* catagory */
+
+.category {
+  background: #fbf9f9;
+  margin-top: 80px 0;
+}
+.category .cata-title {
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+.cata-title h2 {
+  text-align: center;
+}
+
+.category .cata-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.category .cata-box .box {
+  margin: 30px 20px;
+}
+
+/* .box   */
+.category .cata-box .box img {
+  width: 600px;
+  border-radius: 5px;
+  height: 328px;
+}
+.category .cata-box .box-content.l {
+  position: absolute;
+  z-index: 1;
+  margin-left: 30px;
+  margin-top: 100px;
+}
+
+.category .cata-box .box-content h3 {
+  color: rgb(255, 103, 103);
+}
+
+.category .cata-box .box-content label {
+  display: block;
+  font-size: 30px;
+  color: rgb(255, 103, 103);
+}
+
+.catagory .cata-box .box-content a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 25px;
+  font-size: 14px;
+  border-radius: 25px;
+  background: white;
+  transition: all 0.19s ease-in;
+  color: black;
+}
+
+.category .cata-box .box-content a:hover {
+  background: rgb(255, 237, 237);
+}
+
+.category .cata-box .box-content.l {
+  margin-left: 370px;
+  text-align: right;
+  margin-top: 100px;
+}
+
+.category .cata-box .box-content.l h3 {
+  color: rgb(91, 253, 202);
+}
+
+.category .cata-box .box-content.l label {
+  color: rgb(91, 253, 202);
+}
